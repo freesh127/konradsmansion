@@ -1,0 +1,132 @@
+body{
+    background-color: #EDE9D5;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+.nav-area{
+    float: center;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: #8D7B68;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+.nav-area li a:hover{
+    background: #A4907C;
+    color: #333;
+}
+.headertext{
+    position: absolute;
+    margin: 5% 33.5%;
+    text-align: center;
+}
+h1{
+    font-size: xx-large;
+    color: #333;
+}
+#modernkep{
+    width: 920px;
+    height: auto;
+    border-radius: 2%;
+    position: relative;
+    top: 250px;
+    border: 2px solid #8D7B68;
+}
+#garazskep{
+    width: 920px;
+    height: auto;
+    border-radius: 2%;
+    position: relative;
+    top: 250px;
+    right: 0;
+    float: right;
+    border: 2px solid #8D7B68;
+}
+.roomstext{
+    position: absolute;
+    margin: 5% 36.5%;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+    border-radius: 2%;
+}
+
+#textboxkep{
+    width: 820px;
+    height: auto;
+    border-radius: 2%;
+    position: relative;
+    top: 180px;
+    border: 2px solid #8D7B68;
+    float: left;
+}
+#apartment{
+color: #8D7B68;
+font-style:italic;
+-webkit-text-stroke: #333 0.5px;
+margin-left: 100px;
+margin-top: 230px;
+}
+#price{
+    color: green;
+    font-size: x-large;
+    margin-left: 100px;
+}
+p, li{
+    font-size: x-large;
+    margin-left: 35px;
+}
+#logo{
+    float: right;
+    -webkit-text-stroke: #333 0.5px;
+    margin-top: 5px;
+    color: #8D7B68;
+    font-size: larger;
+}
+.kepek{
+    position: relative;
+}
+.leiras{
+    position: relative;
+    margin-top: 280px;
+}
+.jobb{
+    position: relative;
+    text-align: center;
+    margin-left: 140px;
+    bottom: 310px;
+    
+}
+.jobb ul{
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    left: 285px;
+    bottom: 10px;
+}
+#rainwaterkep{
+    width: 400px;
+    height: auto;
+    float: right;
+    right: 15px;
+}

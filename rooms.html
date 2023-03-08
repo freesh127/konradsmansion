@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="konihaz.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <ul class="nav-area">
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="renting.html">Renting</a></li>
+        <li id="logo">KLPB Real Estate Agency</li>
+      </ul>
+      <div class="roomstext">
+        <h1>Rooms</h1>
+      </div>
+      <div class="container">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="eloszoba.png" /></div>
+            <div class="swiper-slide"><img src="garazs2.png" /></div>
+            <div class="swiper-slide"><img src="batmanszoba.png" /></div>
+            <div class="swiper-slide"><img src="furdoszoba.png" /></div>
+            <div class="swiper-slide"><img src="furdoszoba2.png" /></div>
+            <div class="swiper-slide"><img src="jatszoszoba.png" /></div>
+            <div class="swiper-slide"><img src="konyha.png" /></div>
+            <div class="swiper-slide"><img src="wc.png" /></div>
+            <div class="swiper-slide"><img src="modern.png" /></div>
+          </div>
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        loop: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: true,
+        },
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
